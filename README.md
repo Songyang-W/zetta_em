@@ -13,7 +13,15 @@ the line will activate the cloudvolume package
 the expected input for ``ID_retrieve_from_fill.py`` is a column of x,y,z coordinate (see sample data: ``coordinate.csv``).
 There will be two outputs: one matfile with size of nx4 matrix, one printed array of unique ID in the output file (ID_retrieving_from_fill.sh.o**)
 
+2. pullout_mat.sh
 
+function of the code is to pull out the voxel coordinates of a given ID, centroids
+
+``voxel_retrieve.py`` is the key python code (same above)
+
+the expected input is ID,X,Y,Z,M (subset of main_em_soma.csv)
+
+output is mat file with ID as filename, and coordinates as content
 
 
 ## Notes
