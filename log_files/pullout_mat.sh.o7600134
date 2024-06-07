@@ -1,0 +1,21 @@
+Download:   0%|          | 0/325 [00:00<?, ?it/s]Download:   0%|          | 1/325 [00:01<04:11,  1.29it/s]Download:   1%|          | 2/325 [00:01<04:37,  1.16it/s]Download:  63%|██████▎   | 204/325 [00:02<00:00, 180.06it/s]Download:  90%|█████████ | 293/325 [00:02<00:00, 181.93it/s]Download: 100%|██████████| 325/325 [00:02<00:00, 124.66it/s]
+done one line
+Traceback (most recent call last):
+  File "/projectnb/jchenlab/venvs/zetta_em/lib/python3.10/site-packages/scipy/io/matlab/_mio.py", line 39, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: '/net/claustrum3/mnt/data/Projects/Connectomics/Animals/jc105/EM_volume/mat_files/may29_2150_new/72130161872491999.mat'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/net/claustrum3/mnt/data/Projects/Connectomics/Animals/jc105/EM_volume/voxel_retrieve.py", line 38, in <module>
+    savemat(filename, formatted_data)
+  File "/projectnb/jchenlab/venvs/zetta_em/lib/python3.10/site-packages/scipy/io/matlab/_mio.py", line 287, in savemat
+    with _open_file_context(file_name, appendmat, 'wb') as file_stream:
+  File "/share/pkg.8/python3/3.10.12/install/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/projectnb/jchenlab/venvs/zetta_em/lib/python3.10/site-packages/scipy/io/matlab/_mio.py", line 17, in _open_file_context
+    f, opened = _open_file(file_like, appendmat, mode)
+  File "/projectnb/jchenlab/venvs/zetta_em/lib/python3.10/site-packages/scipy/io/matlab/_mio.py", line 45, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: '/net/claustrum3/mnt/data/Projects/Connectomics/Animals/jc105/EM_volume/mat_files/may29_2150_new/72130161872491999.mat'

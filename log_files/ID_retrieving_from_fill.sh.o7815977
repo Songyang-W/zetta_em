@@ -1,0 +1,11 @@
+import: unable to open X server `' @ error/import.c/ImportImageCommand/347.
+import: unable to open X server `' @ error/import.c/ImportImageCommand/347.
+import: unable to open X server `' @ error/import.c/ImportImageCommand/347.
+import: unable to open X server `' @ error/import.c/ImportImageCommand/347.
+./ID_retrieve_from_fill.py: line 5: from: command not found
+./ID_retrieve_from_fill.py: line 6: from: command not found
+import: unable to open X server `' @ error/import.c/ImportImageCommand/347.
+import: unable to open X server `' @ error/import.c/ImportImageCommand/347.
+./ID_retrieve_from_fill.py: line 9: from: command not found
+./ID_retrieve_from_fill.py: line 11: syntax error near unexpected token `('
+./ID_retrieve_from_fill.py: line 11: `def extract_data_from_array(array, csv_file_path):'

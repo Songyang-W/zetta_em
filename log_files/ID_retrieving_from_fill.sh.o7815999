@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/net/claustrum3/mnt/data/Projects/Connectomics/Animals/jc105/EM_volume/ID_retrieve_from_fill.py", line 37, in <module>
+    extracted_data, results = extract_data_from_array(cv, csv_file_path)
+NameError: name 'cv' is not defined. Did you mean: 'csv'?
